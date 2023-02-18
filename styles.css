@@ -1,5 +1,5 @@
 .fancy-header {
-	background-image: url('sources/dsbg.jpg');
+	background-image: url('sources/dsbg2.png');
 	background-size: cover;
 	background-position: center;
 	color: #fff;
@@ -268,6 +268,49 @@
   }
 
   /* Color style*/
-  .CenterNav, .top-nav, article, header {
+  .CenterNav, .top-nav, article, header, .article-img-div {
     background-color: #0d0c19;
+  }
+
+  .projects-div {
+    display: inline-flex;
+  }
+
+  .projects-img {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    transition: 0.5s;
+  }
+
+  .projects-img:hover, .imgs-img:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+  }
+/**/
+  .imgs-div {
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .imgs-img {
+    margin: auto;
+    width: 22%;
+    height: 22%;
+    transition: 0.5s;
+  }
+  
+  .article-img-div {
+    border: 2px solid;
+    border-color: rgb(206, 202, 16);
+    border-radius: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 80%;
+    padding: 10px;
   }
