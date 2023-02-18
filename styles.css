@@ -1,0 +1,273 @@
+.fancy-header {
+	background-image: url('sources/dsbg.jpg');
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+	height: 500px;
+	position: relative;
+    width: 100%;
+}
+
+.header-content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.header-content h1 {
+	font-size: 3em;
+	margin: 0;
+}
+
+.header-content p {
+	font-size: 1.5em;
+	margin: 1em 0;
+}
+
+.header-content button {
+	background-color: rgb(132, 130, 10);
+	color: #ffffff;
+	padding: 1em 2em;
+	border: none;
+	border-radius: 25px;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+/*Nav Bar*/
+  .top-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-nav li {
+    float: left;
+  }
+  
+  .top-nav li a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .top-nav li a:hover {
+    background-color: #858585;
+    color: black;
+  }
+  
+  .top-nav li a.active {
+    background-color: rgb(132, 130, 10);
+    color: white;
+  }
+  /*End of Nav Bar*/
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  /* Next/prev buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    height: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 50%;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  /*End of Slideshow*/
+
+  .CenterNav {
+    margin: auto;
+    width: 100% ;
+    background-color: #333;
+    display: inline-flex;
+ }
+.top-nav {
+    margin: auto;
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  #Top-Options {
+    width: 100px;
+    font-size: large;
+  }
+
+  article {
+    border: 2px solid;
+    border-color: rgb(206, 202, 16);
+    border-radius: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 50%;
+    padding: 10px;
+    background-color: #333;
+  }
+
+  .Center-controlls {
+    margin: auto;
+    width: 50%;
+    background-color: #3d3d3d;
+  }
+
+  .dot-container {
+    margin: auto;
+    background-color: #3d3d3d;
+    width:fit-content ;
+  }
+
+  .ArtTitle, .post-meta, .ArtCont {
+    text-align: center;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  body {
+    background-color: #0d0c19;
+    padding: 0%;
+    margin: 0%;
+  }
+
+  h1, h2, p, .pause {
+    color: #fff;
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+
+  .ArtCont {
+    font-size: 18px;
+  }
+
+  a {
+    color: rgb(16, 108, 206);
+    font-family: 'Merriweather Sans', sans-serif;
+  }
+
+  a:visited {
+    color: rgb(172, 75, 246);
+  }
+
+  footer {
+    text-align: center;
+    border-top: 2px solid;
+    border-color: rgb(206, 202, 16);
+    background-color: #070612;
+  }
+
+  .made-with {
+    margin-bottom: 0;
+  }
+
+  .ptDiv {
+    display: flex;
+    width: 50%;
+    position: absolute;
+  }
+
+  .pgLogo {
+    margin-left: 10px;
+    margin-top: 6px;
+    width: 126px;
+    height: 40px;
+    float: left;
+  }
+
+
+  .Nav-list {
+    float: right;
+    display: inline-flex;
+  }
+
+  /* Color style*/
+  .CenterNav, .top-nav, article, header {
+    background-color: #0d0c19;
+  }
